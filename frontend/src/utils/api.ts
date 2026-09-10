@@ -3,7 +3,7 @@
 // (see App.tsx), never in localStorage, per the auth design.
 export const API_BASE_URL = (
   (import.meta as any).env?.VITE_API_BASE_URL ||
-  'https://voice-clone-detection-sih-26.onrender.com'
+  'https://dff-al3w.onrender.com'
 ).replace(/\/+$/, '');
 
 export interface AnalyzeResponse {
